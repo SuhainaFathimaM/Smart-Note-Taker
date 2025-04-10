@@ -1,31 +1,27 @@
-# 📝 Smart Notes Taker - Chrome Extension
+# 🧠 Smart Notes Taker - Chrome Extension
 
-A simple and powerful Chrome extension that helps you **summarize selected text on any webpage** using an AI model from Hugging Face. It’s perfect for students, researchers, and busy professionals who want to save time reading long articles or reports.
-
----
-
-## 🚀 Features
-
-- 📌 Right-click to summarize selected text
-- ⚡ Uses Hugging Face's `BART` model for fast and accurate summarization
-- 💾 Saves summary locally in browser storage
-- 🧠 Automatically opens popup with generated summary
-- 📥 Option to download the summary as a text file
+A simple Chrome extension to **summarize selected text** on any webpage using the **Hugging Face API** and save the summary as a downloadable note.
 
 ---
 
-## 🧰 Tech Stack
+## 🚀 Installation
 
-- JavaScript
-- Chrome Extension API
-- Hugging Face Inference API
-- HTML/CSS
+1. Clone or download this repository.
+2. Open Chrome and go to `chrome://extensions`.
+3. Enable **Developer Mode** (top right corner).
+4. Click **Load unpacked**.
+5. Select the `smart-notes-taker` directory.
+
+✅ Done! Now right-click on any selected text and choose **"Summarize this"**.
 
 ---
 
-## 🔧 Installation
+## 🔐 Setup Hugging Face API Key
 
-1. **Clone the repo** or [Download ZIP](https://github.com/your-username/smart-notes-taker/archive/refs/heads/main.zip):
+1. Go to [Hugging Face](https://huggingface.co/join) and create an account.
+2. Navigate to **Settings → Access Tokens**.
+3. Create a new token and copy it.
+4. In `background.js`, replace:
 
-   ```bash
-   git clone https://github.com/your-username/smart-notes-taker.git
+```js
+"Authorization": "Bearer YOUR_API_KEY_HERE"
