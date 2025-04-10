@@ -29,8 +29,8 @@ A simple Chrome extension to **summarize selected text** on any webpage using th
 
 ## 📂 Project Structure
 
-smart-notes-taker/ 
-├── background.js # Handles context menu and API calls 
+smart-notes-taker/ \n
+├── background.js # Handles context menu and API calls  \n
 ├── manifest.json # Chrome extension configuration 
 ├── popup.html # Popup UI for showing summary 
 ├── popup.js # Script for popup functionality 
