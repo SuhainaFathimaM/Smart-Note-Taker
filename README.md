@@ -38,7 +38,7 @@ smart-notes-taker/
 ├── style.css            # Styling for popup
 ├── icon.png             # Extension icon
 └── README.md            # Project documentation
-
+```
 
 ---
 
