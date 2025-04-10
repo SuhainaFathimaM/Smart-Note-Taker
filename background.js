@@ -1,4 +1,4 @@
-//  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
+
 
 chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create({
@@ -22,7 +22,7 @@ async function getSummary(text) {
     const response = await fetch("https://api-inference.huggingface.co/models/facebook/bart-large-cnn", {
       method: "POST",
       headers: {
-        "Authorization": `Bearer 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`,
+        "Authorization": `YOUR-API-KEY`,
         "Content-Type": "application/json"
       },
       body: JSON.stringify({ inputs: text })
