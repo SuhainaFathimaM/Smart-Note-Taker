@@ -29,11 +29,39 @@ A simple Chrome extension to **summarize selected text** on any webpage using th
 
 ## 📂 Project Structure
 
-smart-notes-taker/ \n
-├── background.js # Handles context menu and API calls  \n
+smart-notes-taker/ 
+├── background.js # Handles context menu and API calls  
 ├── manifest.json # Chrome extension configuration 
 ├── popup.html # Popup UI for showing summary 
 ├── popup.js # Script for popup functionality 
 ├── style.css # Styling for popup 
 ├── icon.png # Extension icon 
 └── README.md # Project documentation
+
+
+
+---
+
+## ✨ Example Usage
+
+- Select any paragraph or text on a webpage.  
+- Right-click → Click on **Summarize this**.  
+- A popup appears with the generated summary.  
+- Click **Download Note** to save it as a `.txt` file.
+
+---
+
+## 💡 Contribution
+
+Pull requests are welcome!  
+Feel free to open issues or suggest features.
+
+**To contribute:**
+
+```bash
+Fork the repository
+git checkout -b feature-name
+git commit -m "Add new feature"
+git push origin feature-name
+Open a pull request 🚀
+
