@@ -25,3 +25,8 @@ A simple Chrome extension to **summarize selected text** on any webpage using th
 
 ```js
 "Authorization": "Bearer YOUR_API_KEY_HERE"
+```
+
+## 📂 Project Structure
+
+smart-notes-taker/ ├── background.js # Handles context menu and API calls ├── manifest.json # Chrome extension configuration ├── popup.html # Popup UI for showing summary ├── popup.js # Script for popup functionality ├── style.css # Styling for popup ├── icon.png # Extension icon └── README.md # Project documentation
