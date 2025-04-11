@@ -2,6 +2,7 @@
 
 A simple Chrome extension to **summarize selected text** on any webpage using the **Hugging Face API** and save the summary as a downloadable note.
 
+<img src="Screenshot 2025-04-10 231233.png" alt="Screenshot" width="400"/>
 ---
 
 ## 🚀 Installation
@@ -45,7 +46,7 @@ smart-notes-taker/
 ## ✨ Example Usage
 
 <img src="Screenshot 2025-04-10 231156.png" alt="Screenshot" width="400"/>
-<img src="Screenshot 2025-04-10 231233.png" alt="Screenshot" width="400"/>
+
 
 
 - Select any paragraph or text on a webpage.  
