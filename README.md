@@ -80,7 +80,7 @@ This project is open-source and available under the MIT License.
 ## 👩‍💻 Author
 
 **Suhaina Fathima M**  
-Connect with me on [LinkedIn](https://www.linkedin.com/suhaina-fathima-m/) or check out my [GitHub](https://github.com/SuhainaFathimaM)
+Connect with me on [LinkedIn](https://www.linkedin.com/in/suhaina-fathima-m/) or check out my [GitHub](https://github.com/SuhainaFathimaM)
 
 ---
 
